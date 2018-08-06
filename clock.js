@@ -1,4 +1,4 @@
-﻿function Ido()
+﻿function Time()
 {
 var time = new Date();
 var hour = time.getHours();
@@ -11,5 +11,5 @@ var string = hour+":"+min+":"+sec;
 document.getElementById('clock').innerHTML = string;
 setTimeout('Ido()', 1000); 
 }
-Ido();
+Time();
 
